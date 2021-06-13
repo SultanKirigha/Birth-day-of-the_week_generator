@@ -142,6 +142,7 @@ function cambiar_login() {
     
   }
   function fn2(){
+if (fn2()) == true:
     var str = document.getElementById("namem").value;
     var yrbirth = document.getElementById("name3").value;
     var monbirth = document.getElementById("name4").value;

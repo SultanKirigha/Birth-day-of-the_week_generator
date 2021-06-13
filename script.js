@@ -45,8 +45,6 @@ function cambiar_login() {
     var str = document.getElementById("namef").value;
     var yrbirth = document.getElementById("num").value;
     var monbirth = document.getElementById("num1").value;
-    var monbirth = date.getMonth("num1")
-    monbirth = monbirth + 1;
     var datebirth = document.getElementById("num2").value;
     var date = new Date(yrbirth, monbirth, datebirth);
     var dayOfWeekNumber = date.getDay(date);
@@ -83,7 +81,7 @@ function cambiar_login() {
             break;
     
     }
-    alert("wow " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
+    alert("Hi " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
     //Display the day of the week
     let weekdayDiv = document.getElementById(getDay(yrbirth, monbirth,datebirth));
     weekdayDiv.innerHTML = `${nameOfDay}`;

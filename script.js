@@ -45,6 +45,8 @@ function cambiar_login() {
     var str = document.getElementById("namef").value;
     var yrbirth = document.getElementById("num").value;
     var monbirth = document.getElementById("num1").value;
+    var monbirth = date.getMonth("num1")
+    monbirth = monbirth + 1;
     var datebirth = document.getElementById("num2").value;
     var date = new Date(yrbirth, monbirth, datebirth);
     var dayOfWeekNumber = date.getDay(date);
@@ -142,7 +144,6 @@ function cambiar_login() {
     
   }
   function fn2(){
-if (fn2()) == true:
     var str = document.getElementById("namem").value;
     var yrbirth = document.getElementById("name3").value;
     var monbirth = document.getElementById("name4").value;

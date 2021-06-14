@@ -35,9 +35,12 @@ Thursday:  Yaa
 Friday: Afua
 
 Saturday: Ama
+
+
+
 ## Table of contents
 * [Project Name](#Project)
-* [Author]
+* [Author] (#SultanMwangovyaKirigha)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -69,7 +72,7 @@ $ Run the code from VS Code through a liveserver to chrome browser.
 $ Make  style changes where need be,do not interfere with the funcionality.
 ```
 ## How it works
-Input your birth date and click the submit buttons based on your gender.An output will be displayed containing your akan name and the day of the week that you were born.
+Input your birth date and click the submit buttons based on your gender.An output will be displayed containing your Akan name and the day of the week that you were born.
 ## Contacts
 Feel free to add your contribution to the code.
 If you have any questions,comments or correctional advice,feel free to contact me @sultankirigha@gmail.com.

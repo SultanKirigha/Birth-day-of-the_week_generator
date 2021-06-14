@@ -44,7 +44,54 @@ function cambiar_login() {
   function fn1(){
     var str = document.getElementById("namef").value;
     var yrbirth = document.getElementById("num").value;
-    var monbirth = document.getElementById("num1").value;
+    /*var monbirth = document.getElementById("num1").value;*/
+    var monbirth = 0;
+    for(var i = 0; i < array.length; ++i){
+    if(array[i] == 2)
+        monbirth++;
+    monbirth = document.getMonth("num1").value
+}
+    /*switch(monbirth){
+    case 0:
+         month = "word"
+         break;
+    case 1:
+        month = "January";
+        break;
+    case 2:
+        month = "February";
+        break;
+    case 3:
+        month = "March";
+        break;
+    case 4:
+        month = "April";
+        break;
+    case 5:
+        month = "May";
+        break
+    case 6:
+        month = "June";
+        break
+    case 7:
+        month = "July";
+        break
+    case 8:
+        month = "August";
+        break
+    case 9:
+        month = "September";
+        break
+    case 10:
+        month = "October";
+        break
+    case 11:
+        month = "November";
+        break
+    case 12:
+        month = "December";
+        break
+    }*/
     var datebirth = document.getElementById("num2").value;
     var date = new Date(yrbirth, monbirth, datebirth);
     var dayOfWeekNumber = date.getDay(date);
@@ -81,64 +128,7 @@ function cambiar_login() {
             break;
     
     }
-    alert("Hi " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
-    //Display the day of the week
-    let weekdayDiv = document.getElementById(getDay(yrbirth, monbirth,datebirth));
-    weekdayDiv.innerHTML = `${nameOfDay}`;
-    
-    //Display quote
-    let quoteDiv = document.getElementById('week');
-    quoteDiv.innerHTML = `${quote}`
-    
-  }
-  function fn1(){
-    var str = document.getElementById("namef").value;
-    var yrbirth = document.getElementById("num").value;
-    var monbirth = document.getElementById("num1").value;
-    var datebirth = document.getElementById("num2").value;
-    var date = new Date(yrbirth, monbirth, datebirth);
-    var dayOfWeekNumber = date.getDay(date);
-    var nameOfDay;
-    var ghanan_name;
-    switch(dayOfWeekNumber){
-        case 0: 
-            nameOfDay = 'Sunday';
-            ghanan_name = 'Akosua';
-            break;
-        case 1:
-            nameOfDay = 'Monday';
-            ghanan_name = 'Adwoa';
-            break;
-        case 2:
-            nameOfDay = 'Tuesday';
-            ghanan_name = 'Abenaa';
-            break;
-        case 3:
-            nameOfDay = 'Wednesday';
-            ghanan_name = ' Akua';
-            break;
-        case 4:
-            nameOfDay = 'Thursday';
-            ghanan_name = 'Yaa';
-            break;
-        case 5:
-            nameOfDay = 'Friday';
-            ghanan_name = 'Afua';
-            break;
-        case 6:
-            nameOfDay = 'Saturday';
-            ghanan_name = 'Ama';
-            break;
-    
-    }
-    alert("wow " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
-    //Display the day of the week
-    let weekdayDiv = document.getElementById(getDay(yrbirth, monbirth,datebirth));
-    weekdayDiv.innerHTML = `${nameOfDay}`;
-    
-    //Display quote
-    let quoteDiv = document.getElementById('week');
-    quoteDiv.innerHTML = `${quote}`
+    alert("Hello " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
     
   }
   function fn2(){
@@ -181,14 +171,7 @@ function cambiar_login() {
             break;
     
     }
-    alert("wow " +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
-    //Display the day of the week
-    let weekdayDiv = document.getElementById(getDay(yrbirth, monbirth,datebirth));
-    weekdayDiv.innerHTML = `${nameOfDay}`;
-    
-    //Display quote
-    let quoteDiv = document.getElementById('week');
-    quoteDiv.innerHTML = `${quote}`
+    alert("Hello" +str + " you were born on " + nameOfDay + " Your ghanaian name is " + ghanan_name);
     
   }
     

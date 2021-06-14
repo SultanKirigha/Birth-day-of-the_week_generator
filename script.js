@@ -45,13 +45,8 @@ function cambiar_login() {
     var str = document.getElementById("namef").value;
     var yrbirth = document.getElementById("num").value;
     /*var monbirth = document.getElementById("num1").value;*/
-    var monbirth = 0;
-    for(var i = 0; i < array.length; ++i){
-    if(array[i] == 2)
-        monbirth++;
-    monbirth = document.getMonth("num1").value
-}
-    /*switch(monbirth){
+    var monbirth = document.getElementById("num1").value
+    switch(monbirth){
     case 0:
          month = "word"
          break;
@@ -91,7 +86,7 @@ function cambiar_login() {
     case 12:
         month = "December";
         break
-    }*/
+    }
     var datebirth = document.getElementById("num2").value;
     var date = new Date(yrbirth, monbirth, datebirth);
     var dayOfWeekNumber = date.getDay(date);

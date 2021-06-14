@@ -45,7 +45,7 @@ function cambiar_login() {
     var str = document.getElementById("namef").value;
     var yrbirth = document.getElementById("num").value;
     /*var monbirth = document.getElementById("num1").value;*/
-    var monbirth = document.getElementById("num1").value
+    var monbirth = document.getElementById("num1").value;
     switch(monbirth){
     case 0:
          month = "word"

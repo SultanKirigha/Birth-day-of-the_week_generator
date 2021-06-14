@@ -143,7 +143,17 @@
   -o-transition: all 0.5s;
   transition: all 0.5s;
   }
-   
+   .inputcontainer[data-error].input {
+     border-color: #c92434;
+     color: #c92434;
+     background: #fffafa;
+   }
+   .inputcontainer[data-error]::after {
+     content: attr(data-error);
+     color: #c92434;
+     font-size: 12px;
+     display: block;
+   }
   
   .cont_info_log_sign_up {
   position: absolute;
